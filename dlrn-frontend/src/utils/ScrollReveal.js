@@ -1,11 +1,11 @@
 
 import React, { useState, useEffect, useImperativeHandle } from 'react';
 import PropTypes from 'prop-types';
-import { initial, throttle } from 'lodash';
+import { throttle } from 'lodash';
 
 const ScrollReveal = React.fowardRef((props, ref) => {
 
-    const [viewportHeight, setViewportHeight] = useState(window.innerHeight);
+    const [viewportHeight, setViewportheight] = useState(window.innerHeight);
     const [revealEl, setRevealel] = useState([]);
 
     const checkComplete = () => {
@@ -18,7 +18,7 @@ const ScrollReveal = React.fowardRef((props, ref) => {
     const revealElements = () => {
         if (checkComplete()) return;
         for (let i = 0; i < revealEl.length; i++) {
-            let el = revealEL[i];
+            let el = revealEl[i];
             let revealDelay = el.getAttribute('data-reveal-delay');
             let revealOffset = (el.getAttribute('data-reveal-offset') ? el.getAttribute('data-reveal-offset') : '200');
             let listenedEl = (el.getAttribute('data-reveal-container') ? el.closest(el.getAttribute('data-reveal-container')) : el);
@@ -44,7 +44,7 @@ const ScrollReveal = React.fowardRef((props, ref) => {
         if (typeof revealEl !== 'undefined' && revealEl.length > 0) {
             if (!checkComplete()) {
                 window.removeEventListener('scroll', handleScroll);
-                window.removeEventListener('resize' handleResize);
+                window.removeEventListener('resize', handleResize);
             }
             revealElements();
         }
