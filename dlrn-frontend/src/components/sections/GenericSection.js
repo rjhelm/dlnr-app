@@ -1,4 +1,5 @@
-import React from 'react';
+
+import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
@@ -24,7 +25,9 @@ const GenericSection = ({
     invertColor,
     ...props
 }) => {
-    
+
+
+
     const outerClasses = classNames(
         'section',
         topOuterDivider && 'has-top-divider',
@@ -48,6 +51,7 @@ const GenericSection = ({
             <div className="container">
                 <div className={innerClasses}>
                     {children}
+        
                 </div>
             </div>
         </section>

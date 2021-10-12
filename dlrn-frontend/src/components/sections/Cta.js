@@ -51,15 +51,21 @@ const Cta = ({
                 <div className={innerClasses}>
                     <div className="cta-slogan">
                         <h3 className="m-0">
-                            Content Preview
+                            DLRN Token ICO
                         </h3>
                     </div>
                     <div className="cta-action">
-                        <Input id="newsletter" type="email" label="Subscribe" labelHidden hasIcon="right" placeholder="Your Email">
+                        <Input id="newsletter" type="name" label="Name" labelHidden hasIcon="right" placeholder="Your Name">
                             <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M9 5H1c-.6 0-1 .4-1 1s.4 1 1 1h8v5l7-6-7-6v5z" fill="#376DF9" />
                             </svg>
                         </Input>
+                        <Input id="newsletter" type="address" label="Email Address" labelHidden hasIcon="right" placeholder="Email Address">
+                            <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 5H1c-.6 0-1 .4-1 1s.4 1 1 1h8v5l7-6-7-6v5z" fill="#376DF9" />
+                            </svg>
+                        </Input>
+                        {/* Put in a select option here for choosing a way to pay for the ICO */}
                     </div>
                 </div>
             </div>

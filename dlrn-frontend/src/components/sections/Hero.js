@@ -71,10 +71,10 @@ const Hero = ({
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="">
-
+                    Whitepage
                   </Button>
                   <Button tag="a" color="dark" wideMobile href="">
-
+                    DLRN Token
                   </Button>
                 </ButtonGroup>
               </div>

@@ -50,12 +50,8 @@ const FeaturesSplit = ({
     );
 
     const sectionHeader = {
-        title: 'About Decentralized Learning Blockchain',
-        paragraph: `Through our platform developers can create cryptocurrency's and NFT's
-        to fund the growth of their machine learning project.
-        Users can distribute the computation processes to the network to speed up the time it take to process data, or train neural networks
-        Our Miners are quite, Produce minimal heat, and power with 10w.Our network will consume 83% less then ethereum, with an average miner powered with about 1200W
-        We strive to be a network that any developer can get started with machine learning inexpensively as well Provide many opportunities to profit from the blockchain.`
+        title: 'Decentralized Learning',
+        paragraph: `The Decentralized Learning Network for Nueral Networks`
     };
 
     return (
@@ -74,10 +70,10 @@ const FeaturesSplit = ({
 
                                 </div>
                                 <h3 className="mt-0 mb-12">
-                                    Our Blockchain Government
+                                    Introduction
                                 </h3>
                                 <p className="m-0">
-                                    Our blockchain will be governed by 2 Coins. The first coin is backed by all the tokens in the blockchain combined. These coin can only be obtained by loyal miners. Our second governing coin will be a stable coin pegged at the U.S. dollar's price. A machine learning algorithm watches over the entire blockchain. The algorithm will insure that mine-able blocks are distributed with optimal speed while making sure of miner equality. Miners do not get to choose what token they mine. instead miners will be payed with the token backing that project. Miners will be able to exchange those tokens into our stable coins, but are strongly encouraged to hold those tokens for when the project blows up.
+                                    The current technology in use for efficient data processing today is very expensive and utilizes a lot of power. With that playing a huge factor in the advancement of this industry, our blockchain plans to fix that. We plan to deploy a decentralized network of certified miners built out of optimized Single-board computers, made specifically for data processing and low power consumption. These miners will be come in a range of affordable prices for all developers. Miners will come preprogrammed with 2 built in environments. The first is a cross-chain exchange, wallet, and charting application, to preform all your trades. The second environment will give developers all the tools needed to create anything from neural networks to Data Visualization. Our blockchain will not only push advancements for many industry our blockchain will give aspiring developers the ability to create their own cryptocurrency and NFT's to provide developers a income while working on their projects.
                                 </p>
                             </div>
                             <div className={
@@ -87,23 +83,23 @@ const FeaturesSplit = ({
                                 )}
                                 data-reveal-container=".split-item">
                                 <Image
-                                    src={require('./../../assets/images/features-split-image-01.png')}
+                                    src={require('../../assets/images/features-split-image-01.png')}
                                     alt="Features split 01"
                                     width={528}
                                     height={396} />
                             </div>
                         </div>
-
                         <div className="split-item">
-                            <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
+                            <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                                    Lightning fast workflow
+                                    For Developers
                                 </div>
                                 <h3 className="mt-0 mb-12">
-                                    Data-driven insights
+                                    Developer Funding
                                 </h3>
                                 <p className="m-0">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    Through our platform developers can create cryptocurrency's and NFT's
+                                    to fund the growth of their machine learning project.
                                 </p>
                             </div>
                             <div className={
@@ -113,37 +109,87 @@ const FeaturesSplit = ({
                                 )}
                                 data-reveal-container=".split-item">
                                 <Image
-                                    src={require('./../../assets/images/features-split-image-02.png')}
-                                    alt="Features split 02"
+                                    src={require('../../assets/images/features-split-image-03.png')}
+                                    alt="Features split 03"
                                     width={528}
                                     height={396} />
                             </div>
+                        </div>
+                        <div className="split-item">
+                            <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
+                                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                                    Productivity
+                                </div>
+                                <h3 className="mt-0 mb-12">
+                                    User Productivity Boost
+                                </h3>
+                                <p className="m-0">
+                                    Users can distribute the computation processes to the network to speed up the time it take to process data, or train neural networks
+                                </p>
+                            </div>
+                            {/* <div className={
+                                classNames(
+                                    'split-item-image center-content-mobile reveal-from-bottom',
+                                    imageFill && 'split-item-image-fill'
+                                )}
+                                data-reveal-container=".split-item">
+                                <Image
+                                    src={require('../../assets/images/features-split-image-02.png')}
+                                    alt="Features split 02"
+                                    width={528}
+                                    height={396} />
+                            </div> */}
                         </div>
 
                         <div className="split-item">
                             <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                                    Lightning fast workflow
+                                    Efficiency
                                 </div>
                                 <h3 className="mt-0 mb-12">
-                                    Data-driven insights
+                                    Eco-Friendly
                                 </h3>
                                 <p className="m-0">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    Our Miners are quite, Produce minimal heat, and power with 10w. Our network will consume 83% less then ethereum, with an average miner powered with about 1200W
                                 </p>
                             </div>
-                            <div className={
+                            {/* <div className={
                                 classNames(
                                     'split-item-image center-content-mobile reveal-from-bottom',
                                     imageFill && 'split-item-image-fill'
                                 )}
                                 data-reveal-container=".split-item">
                                 <Image
-                                    src={require('./../../assets/images/features-split-image-03.png')}
+                                    src={require('../../assets/images/features-split-image-03.png')}
                                     alt="Features split 03"
                                     width={528}
                                     height={396} />
+                            </div> */}
+                        </div>
+                        <div className="split-item">
+                            <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                                    Oppurtunity
+                                </div>
+                                <h3 className="mt-0 mb-12">
+                                    User Equality
+                                </h3>
+                                <p className="m-0">
+                                    We strive to be a network that any developer can get started with machine learning inexpensively as well Provide many opportunities to profit from the blockchain.
+                                </p>
                             </div>
+                            {/* <div className={
+                                classNames(
+                                    'split-item-image center-content-mobile reveal-from-bottom',
+                                    imageFill && 'split-item-image-fill'
+                                )}
+                                data-reveal-container=".split-item">
+                                <Image
+                                    src={require('../../assets/images/features-split-image-03.png')}
+                                    alt="Features split 03"
+                                    width={528}
+                                    height={396} />
+                            </div> */}
                         </div>
 
                     </div>
