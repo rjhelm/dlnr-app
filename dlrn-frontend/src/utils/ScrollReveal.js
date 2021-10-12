@@ -1,15 +1,14 @@
-
 import React, { useState, useEffect, useImperativeHandle } from 'react';
 import PropTypes from 'prop-types';
 import { throttle } from 'lodash';
 
-const ScrollReveal = React.fowardRef((props, ref) => {
+const ScrollReveal = React.forwardRef((props, ref) => {
 
     const [viewportHeight, setViewportheight] = useState(window.innerHeight);
     const [revealEl, setRevealel] = useState([]);
 
     const checkComplete = () => {
-        return revealEl.length <= document.querySelectorAll('[class*reveal-].is-revealed').length;
+        return revealEl.length <= document.querySelectorAll('[class*=reveal-].is-revealed').length;
     };
     const elementIsVisible = (el, offset) => {
         return (el.getBoundingClientRect().top <= viewportHeight - offset);
@@ -36,7 +35,7 @@ const ScrollReveal = React.fowardRef((props, ref) => {
 
     useImperativeHandle(ref, () => ({
         init() {
-            setRevealel(document.querySelectorAll('[class*reveal-]'));
+            setRevealel(document.querySelectorAll('[class*=reveal-]'));
         }
     }));
 
@@ -48,6 +47,7 @@ const ScrollReveal = React.fowardRef((props, ref) => {
             }
             revealElements();
         }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [revealEl]);
 
     const handleListeners = () => {
@@ -68,6 +68,7 @@ const ScrollReveal = React.fowardRef((props, ref) => {
     useEffect(() => {
         handleListeners();
         revealElements();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [viewportHeight]);
 
     return (

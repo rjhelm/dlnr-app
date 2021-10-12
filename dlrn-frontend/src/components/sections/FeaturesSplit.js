@@ -50,8 +50,12 @@ const FeaturesSplit = ({
     );
 
     const sectionHeader = {
-        title: 'Workflow that just works',
-        paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+        title: 'About Decentralized Learning Blockchain',
+        paragraph: `Through our platform developers can create cryptocurrency's and NFT's
+        to fund the growth of their machine learning project.
+        Users can distribute the computation processes to the network to speed up the time it take to process data, or train neural networks
+        Our Miners are quite, Produce minimal heat, and power with 10w.Our network will consume 83% less then ethereum, with an average miner powered with about 1200W
+        We strive to be a network that any developer can get started with machine learning inexpensively as well Provide many opportunities to profit from the blockchain.`
     };
 
     return (
@@ -67,13 +71,13 @@ const FeaturesSplit = ({
                         <div className="split-item">
                             <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                                    Lightning fast workflow
+
                                 </div>
                                 <h3 className="mt-0 mb-12">
-                                    Data-driven insights
+                                    Our Blockchain Government
                                 </h3>
                                 <p className="m-0">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    Our blockchain will be governed by 2 Coins. The first coin is backed by all the tokens in the blockchain combined. These coin can only be obtained by loyal miners. Our second governing coin will be a stable coin pegged at the U.S. dollar's price. A machine learning algorithm watches over the entire blockchain. The algorithm will insure that mine-able blocks are distributed with optimal speed while making sure of miner equality. Miners do not get to choose what token they mine. instead miners will be payed with the token backing that project. Miners will be able to exchange those tokens into our stable coins, but are strongly encouraged to hold those tokens for when the project blows up.
                                 </p>
                             </div>
                             <div className={
