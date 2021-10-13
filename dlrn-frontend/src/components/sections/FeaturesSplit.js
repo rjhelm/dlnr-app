@@ -76,7 +76,7 @@ const FeaturesSplit = ({
                                     Introduction
                                 </h3>
                                 <p className="m-0">
-                                    The current technology in use for efficient data processing today is very expensive and utilizes a lot of power. With that playing a huge factor in the advancement of this industry, our blockchain plans to fix that. We plan to deploy a decentralized network of certified miners built out of optimized Single-board computers, made specifically for data processing and low power consumption. These miners will be come in a range of affordable prices for all developers. Miners will come preprogrammed with 2 built in environments. The first is a cross-chain exchange, wallet, and charting application, to preform all your trades. The second environment will give developers all the tools needed to create anything from neural networks to Data Visualization. Our blockchain will not only push advancements for many industry our blockchain will give aspiring developers the ability to create their own cryptocurrency and NFT's to provide developers a income while working on their projects.
+                                    The current technology in use for efficient data processing today is very expensive and utilizes a lot of power. With that playing a huge factor in the advancement of this industry, our blockchain plans to fix that. We plan to deploy a decentralized network of certified miners built out of optimized Single-board computers, made specifically for data processing and low power consumption. These miners will come in a range of affordable prices for all developers. Miners will come preprogrammed with 2 built in environments. The first is a cross-chain exchange, wallet, and charting application, to preform all your trades. The second environment will give developers all the tools needed to create anything from neural networks to Data Visualization. Our blockchain will not only push advancements for many indusries, our blockchain will give aspiring developers the ability to create their own cryptocurrency and NFT's to provide developers income while working on their projects.
                                 </p>
                             </div>
                             <div className={
@@ -127,7 +127,7 @@ const FeaturesSplit = ({
                                     User Productivity Boost
                                 </h3>
                                 <p className="m-0">
-                                    Users can distribute the computation processes to the network to speed up the time it take to process data, or train neural networks.
+                                    Users can distribute the computation processes to the network to speed up the time it take to process data or train neural networks.
                                 </p>
                             </div>
                             <div className={
@@ -153,7 +153,7 @@ const FeaturesSplit = ({
                                     Eco-Friendly
                                 </h3>
                                 <p className="m-0">
-                                    Our Miners are quiet, produce minimal heat, and can be powered with 10w. Our network will consume 83% less then ethereum, with an average miner powered with about 1200W.
+                                    Our Miners are quiet, produce minimal heat, and can be powered with about 10w. Our network will consume 83% less then ethereum, with an average miner powered with about 1200W.
                                 </p>
                             </div>
                             <div className={
@@ -178,7 +178,7 @@ const FeaturesSplit = ({
                                     User Equality
                                 </h3>
                                 <p className="m-0">
-                                    We strive to be a network that any developer can get started with machine learning inexpensively as well Provide many opportunities to profit from the blockchain.
+                                    We strive to be a network that any developer can get started with machine learning inexpensively as well as provide opportunities to profit from the blockchain.
                                 </p>
                             </div>
                             <div className={

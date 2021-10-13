@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-// Props that will be used by all sections
+// Props shared by all sections
 const SectionShared = {
     types: {
         topOuterDivider: PropTypes.bool,
@@ -8,7 +8,7 @@ const SectionShared = {
         topDivider: PropTypes.bool,
         bottomDivider: PropTypes.bool,
         hasBgColor: PropTypes.bool,
-        invertColor: PropTypes.bool,
+        invertColor: PropTypes.bool
     },
     defaults: {
         topOuterDivider: false,
@@ -16,11 +16,11 @@ const SectionShared = {
         topDivider: false,
         bottomDivider: false,
         hasBgColor: false,
-        invertColor: false,
+        invertColor: false
     }
 }
 
-// Section Prop Default
+// Default section props
 export const SectionProps = {
     types: {
         ...SectionShared.types
@@ -30,7 +30,7 @@ export const SectionProps = {
     }
 }
 
-// Section Props that are split
+// Section split props
 export const SectionSplitProps = {
     types: {
         ...SectionShared.types,
@@ -48,7 +48,7 @@ export const SectionSplitProps = {
     }
 }
 
-// Section Tile Props
+// Section tiles props
 export const SectionTilesProps = {
     types: {
         ...SectionShared.types,
@@ -56,6 +56,6 @@ export const SectionTilesProps = {
     },
     defaults: {
         ...SectionShared.defaults,
-        pushLeft: false,
+        pushLeft: false
     }
 }

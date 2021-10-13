@@ -10,6 +10,7 @@ const ScrollReveal = React.forwardRef((props, ref) => {
     const checkComplete = () => {
         return revealEl.length <= document.querySelectorAll('[class*=reveal-].is-revealed').length;
     };
+
     const elementIsVisible = (el, offset) => {
         return (el.getBoundingClientRect().top <= viewportHeight - offset);
     };
@@ -23,7 +24,7 @@ const ScrollReveal = React.forwardRef((props, ref) => {
             let listenedEl = (el.getAttribute('data-reveal-container') ? el.closest(el.getAttribute('data-reveal-container')) : el);
             if (elementIsVisible(listenedEl, revealOffset) && !el.classList.contains('is-revealed')) {
                 if (revealDelay && revealDelay !== 0) {
-                    setTimeout(function() {
+                    setTimeout(function () {
                         el.classList.add('is-revealed');
                     }, revealDelay);
                 } else {
@@ -42,12 +43,12 @@ const ScrollReveal = React.forwardRef((props, ref) => {
     useEffect(() => {
         if (typeof revealEl !== 'undefined' && revealEl.length > 0) {
             if (!checkComplete()) {
-                window.removeEventListener('scroll', handleScroll);
-                window.removeEventListener('resize', handleResize);
+                window.addEventListener('scroll', handleScroll);
+                window.addEventListener('resize', handleResize);
             }
             revealElements();
         }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [revealEl]);
 
     const handleListeners = () => {
@@ -60,7 +61,7 @@ const ScrollReveal = React.forwardRef((props, ref) => {
         handleListeners();
         revealElements();
     }, 30);
-    
+
     const handleResize = throttle(() => {
         setViewportheight(window.innerHeight);
     }, 30);
@@ -68,7 +69,7 @@ const ScrollReveal = React.forwardRef((props, ref) => {
     useEffect(() => {
         handleListeners();
         revealElements();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [viewportHeight]);
 
     return (
