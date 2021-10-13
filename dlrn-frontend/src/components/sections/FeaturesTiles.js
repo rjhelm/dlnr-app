@@ -91,7 +91,7 @@ const FeaturesTiles = ({
                                     <div className="features-tiles-item-image mb-16">
                                         <img
                                             src={token}
-                                            alt=""
+                                            alt="DLRN logo"
                                             width={64}
                                             height={64} />
                                     </div>

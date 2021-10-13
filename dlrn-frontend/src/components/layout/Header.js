@@ -85,7 +85,7 @@ const Header = ({
                         'site-header-inner',
                         bottomDivider && 'has-bottom-divider'
                     )}>
-                    <h3>DLRN</h3>
+                    <h3><span className="text-color-primary">DLRN</span></h3>
                     {!hideNav &&
                         <>
                             <button

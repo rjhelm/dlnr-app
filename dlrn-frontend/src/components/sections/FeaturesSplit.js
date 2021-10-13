@@ -2,7 +2,10 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
-import Image from '../elements/Image';
+import dev from '../../assets/images/developer.png';
+import comp from '../../assets/images/computer-science.png';
+import eco from '../../assets/images/eco-friendly.png';
+import productivity from '../../assets/images/productivity.png'
 
 const propTypes = {
     ...SectionSplitProps.types
@@ -82,8 +85,8 @@ const FeaturesSplit = ({
                                     imageFill && 'split-item-image-fill'
                                 )}
                                 data-reveal-container=".split-item">
-                                <Image
-                                    src={require('../../assets/images/features-split-image-01.png')}
+                                <img
+                                    src={""}
                                     alt="Features split 01"
                                     width={528}
                                     height={396} />
@@ -108,9 +111,9 @@ const FeaturesSplit = ({
                                     imageFill && 'split-item-image-fill'
                                 )}
                                 data-reveal-container=".split-item">
-                                <Image
-                                    src={require('../../assets/images/features-split-image-03.png')}
-                                    alt="Features split 03"
+                                <img
+                                    src={dev}
+                                    alt="developer"
                                     width={528}
                                     height={396} />
                             </div>
@@ -124,21 +127,21 @@ const FeaturesSplit = ({
                                     User Productivity Boost
                                 </h3>
                                 <p className="m-0">
-                                    Users can distribute the computation processes to the network to speed up the time it take to process data, or train neural networks
+                                    Users can distribute the computation processes to the network to speed up the time it take to process data, or train neural networks.
                                 </p>
                             </div>
-                            {/* <div className={
+                            <div className={
                                 classNames(
                                     'split-item-image center-content-mobile reveal-from-bottom',
                                     imageFill && 'split-item-image-fill'
                                 )}
                                 data-reveal-container=".split-item">
-                                <Image
-                                    src={require('../../assets/images/features-split-image-02.png')}
+                                <img
+                                    src={productivity}
                                     alt="Features split 02"
                                     width={528}
                                     height={396} />
-                            </div> */}
+                            </div>
                         </div>
 
                         <div className="split-item">
@@ -150,21 +153,21 @@ const FeaturesSplit = ({
                                     Eco-Friendly
                                 </h3>
                                 <p className="m-0">
-                                    Our Miners are quite, Produce minimal heat, and power with 10w. Our network will consume 83% less then ethereum, with an average miner powered with about 1200W
+                                    Our Miners are quiet, produce minimal heat, and can be powered with 10w. Our network will consume 83% less then ethereum, with an average miner powered with about 1200W.
                                 </p>
                             </div>
-                            {/* <div className={
+                            <div className={
                                 classNames(
                                     'split-item-image center-content-mobile reveal-from-bottom',
                                     imageFill && 'split-item-image-fill'
                                 )}
                                 data-reveal-container=".split-item">
-                                <Image
-                                    src={require('../../assets/images/features-split-image-03.png')}
+                                <img
+                                    src={eco}
                                     alt="Features split 03"
                                     width={528}
                                     height={396} />
-                            </div> */}
+                            </div>
                         </div>
                         <div className="split-item">
                             <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
@@ -178,18 +181,18 @@ const FeaturesSplit = ({
                                     We strive to be a network that any developer can get started with machine learning inexpensively as well Provide many opportunities to profit from the blockchain.
                                 </p>
                             </div>
-                            {/* <div className={
+                            <div className={
                                 classNames(
                                     'split-item-image center-content-mobile reveal-from-bottom',
                                     imageFill && 'split-item-image-fill'
                                 )}
                                 data-reveal-container=".split-item">
-                                <Image
-                                    src={require('../../assets/images/features-split-image-03.png')}
-                                    alt="Features split 03"
+                                <img
+                                    src={comp}
+                                    alt="Multpiple users"
                                     width={528}
                                     height={396} />
-                            </div> */}
+                            </div>
                         </div>
 
                     </div>

@@ -3,8 +3,8 @@ import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
-import Image from '../elements/Image';
-import Modal from '../elements/Modal';
+// import Image from '../elements/Image';
+// import Modal from '../elements/Modal';
 import hero from '../../assets/images/hero.jpg';
 
 const propTypes = {
@@ -26,17 +26,17 @@ const Hero = ({
   ...props
 }) => {
 
-  const [videoModalActive, setVideomodalactive] = useState(false);
+  // const [videoModalActive, setVideomodalactive] = useState(false);
 
-  const openModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(true);
-  }
+  // const openModal = (e) => {
+  //   e.preventDefault();
+  //   setVideomodalactive(true);
+  // }
 
-  const closeModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(false);
-  }
+  // const closeModal = (e) => {
+  //   e.preventDefault();
+  //   setVideomodalactive(false);
+  // }
 
   const outerClasses = classNames(
     'hero section center-content',
@@ -67,12 +67,11 @@ const Hero = ({
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
                 Eco-Friendly blockchain for developers to profit while scaling machine learning projects with efficency.
-                
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="">
-                    Whitepage
+                    Whitesheet
                   </Button>
                   <Button tag="a" color="dark" wideMobile href="">
                     DLRN Token
@@ -81,12 +80,12 @@ const Hero = ({
               </div>
             </div>
           </div>
-          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
+          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="600">
             <a
-              data-video=""
-              href="#0"
-              aria-controls="video-modal"
-              onClick={openModal}
+              // data-video=""
+                href="#0"
+              // aria-controls="video-modal"
+              // onClick={openModal}
             >
               <img
                 className="has-shadow"
@@ -96,12 +95,12 @@ const Hero = ({
                 height={704} />
             </a>
           </div>
-          <Modal
+          {/* <Modal
             id="video-modal"
             show={videoModalActive}
             handleClose={closeModal}
             video=""
-            videoTag="iframe" />
+            videoTag="iframe" /> */}
         </div>
       </div>
     </section>
