@@ -6,6 +6,7 @@ import dev from '../../assets/images/developer.png';
 import comp from '../../assets/images/computer-science.png';
 import eco from '../../assets/images/eco-friendly.png';
 import productivity from '../../assets/images/productivity.png'
+import cpu from '../../assets/images/cpu.png';
 
 const propTypes = {
     ...SectionSplitProps.types
@@ -86,7 +87,7 @@ const FeaturesSplit = ({
                                 )}
                                 data-reveal-container=".split-item">
                                 <img
-                                    src={""}
+                                    src={cpu}
                                     alt="Features split 01"
                                     width={528}
                                     height={396} />
