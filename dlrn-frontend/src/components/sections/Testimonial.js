@@ -1,7 +1,10 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
+import ryan from '../../assets/images/ryan-j_edited.jpg';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -62,14 +65,14 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — TJ is a successful business owner and a longtime blockchain enthusiast, user, developer. He brought this idea to life and is passionate about creating something special. 
-                      </p>
+                    — TJ is a business owner, blockchain developer, and investor in cryptocurrency. TJ is also a self taught blockcain app developer and brought this idea to life.
+                  </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">TJ Finley</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">Contact TJ Finley</a>
+                    <a href="#0">Contact TJ</a>
                   </span>
                 </div>
               </div>
@@ -77,16 +80,22 @@ const Testimonial = ({
 
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
+                <div>
+                  <img
+                    src={ryan}
+                    alt="Photo of Ryan"
+                  />
+                </div>
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                      </p>
+                    — Ryan is a full-stack web developer with a broad knowledge of web development and passion for programming in general.
+                  </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">Ryan Helm</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">Contanct Ryan Helm</a>
+                    <a href="#0">Contact Ryan</a>
                   </span>
                 </div>
               </div>

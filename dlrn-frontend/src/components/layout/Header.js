@@ -112,7 +112,7 @@ const Header = ({
                                             navPosition && `header-nav-${navPosition}`
                                         )}>
                                         <li>
-                                            <Link to="#0" onClick={closeMenu}>GitHub</Link>
+                                            <Link to="https://github.com/Decentralizedlearningblockchain" onClick={closeMenu}>GitHub</Link>
                                         </li>
                                     </ul>
                                     {!hideSignin &&
