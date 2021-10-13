@@ -47,7 +47,7 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'Our Team',
+    title: `DLRN Team`,
     paragraph: 'We are dedicated and hard working with a passion for implementing AI into blockchain development. We want to provide a valuable blockchain for developers and give everyone the oppurtunity to develop using the blockchain. We are eager to start the process and bring in more team memebers who are like minded.'
   };
 
@@ -83,7 +83,7 @@ const Testimonial = ({
                 <div>
                   <img
                     src={ryan}
-                    alt="Photo of Ryan"
+                    alt="Ryan team developer"
                   />
                 </div>
                 <div className="testimonial-item-content">
@@ -95,7 +95,7 @@ const Testimonial = ({
                   <span className="testimonial-item-name text-color-high">Ryan Helm</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">Contact Ryan</a>
+                    <a href="https://www.linkedin.com/in/ryjhelm/">Contact Ryan</a>
                   </span>
                 </div>
               </div>
