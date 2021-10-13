@@ -5,6 +5,7 @@ import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
+import hero from '../../assets/images/hero.jpg';
 
 const propTypes = {
   ...SectionProps.types
@@ -87,12 +88,12 @@ const Hero = ({
               aria-controls="video-modal"
               onClick={openModal}
             >
-              <Image
+              <img
                 className="has-shadow"
-                src={require('../../assets/images/video-placeholder.jpg')}
+                src={hero}
                 alt="Hero"
                 width={896}
-                height={504} />
+                height={704} />
             </a>
           </div>
           <Modal

@@ -2,7 +2,8 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
-import Image from '../elements/Image';
+// import Image from '../elements/Image';
+import token from '../../assets/images/DLRN.png'
 
 const propTypes = {
     ...SectionTilesProps.types
@@ -88,9 +89,9 @@ const FeaturesTiles = ({
                             <div className="tiles-item-inner">
                                 <div className="features-tiles-item-header">
                                     <div className="features-tiles-item-image mb-16">
-                                        <Image
-                                            src={require('../../assets/images/feature-tile-icon-02.svg')}
-                                            alt="Features tile icon 02"
+                                        <img
+                                            src={token}
+                                            alt=""
                                             width={64}
                                             height={64} />
                                     </div>
@@ -110,9 +111,9 @@ const FeaturesTiles = ({
                             <div className="tiles-item-inner">
                                 <div className="features-tiles-item-header">
                                     <div className="features-tiles-item-image mb-16">
-                                        <Image
-                                            src={require('../../assets/images/feature-tile-icon-03.svg')}
-                                            alt="Features tile icon 03"
+                                        <img
+                                            src={token}
+                                            alt=""
                                             width={64}
                                             height={64} />
                                     </div>
@@ -132,9 +133,9 @@ const FeaturesTiles = ({
                             <div className="tiles-item-inner">
                                 <div className="features-tiles-item-header">
                                     <div className="features-tiles-item-image mb-16">
-                                        <Image
-                                            src={require('../../assets/images/feature-tile-icon-04.svg')}
-                                            alt="Features tile icon 04"
+                                        <img
+                                            src={token}
+                                            alt=""
                                             width={64}
                                             height={64} />
                                     </div>
