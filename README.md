@@ -1,10 +1,10 @@
 # Decentralized Learning || DLRN
 
-![Decentralized Learning Landing Page]()
+![Decentralized Learning Landing Page](https://github.com/rjhelm/dlrn-app/blob/main/dlrn-frontend/src/assets/images/screenshot.png?raw=true)
 
 **DLRN** is the ICO for the Decentralized Learning Blockchain. Decentralized Learning is a project meant to bring the technologies of neural networks to the blockchain.
 
-Shout out to [Twitter](https://twitter.com/Cruip_com) as the bones of the landing page were created from the template that they open source.
+
 
 ## Table of contents
 
@@ -73,6 +73,7 @@ In order to track visitors, you need to set an [environment variable](https://cr
 
 ## Credits
 
+Shout out to [Twitter](https://twitter.com/Cruip_com) as the bones of the landing page were created from the template that they open source.
 ## Terms and License
 
 ## About Us
