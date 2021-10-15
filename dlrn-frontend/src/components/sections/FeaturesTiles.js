@@ -2,8 +2,8 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
-// import Image from '../elements/Image';
 import token from '../../assets/images/DLRN.png'
+import Image from '../elements/Image';
 
 const propTypes = {
     ...SectionTilesProps.types
@@ -89,7 +89,7 @@ const FeaturesTiles = ({
                             <div className="tiles-item-inner">
                                 <div className="features-tiles-item-header">
                                     <div className="features-tiles-item-image mb-16">
-                                        <img
+                                        <Image
                                             src={token}
                                             alt="DLRN logo"
                                             width={64}
@@ -111,7 +111,7 @@ const FeaturesTiles = ({
                             <div className="tiles-item-inner">
                                 <div className="features-tiles-item-header">
                                     <div className="features-tiles-item-image mb-16">
-                                        <img
+                                        <Image
                                             src={token}
                                             alt=""
                                             width={64}
@@ -133,7 +133,7 @@ const FeaturesTiles = ({
                             <div className="tiles-item-inner">
                                 <div className="features-tiles-item-header">
                                     <div className="features-tiles-item-image mb-16">
-                                        <img
+                                        <Image
                                             src={token}
                                             alt=""
                                             width={64}

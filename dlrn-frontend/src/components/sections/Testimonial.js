@@ -4,8 +4,8 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
-import ryan from '../../assets/images/ryan-j_edited.jpg';
-import tj from '../../assets/images/tj.jpg';
+import ryan from '../../assets/images/ryan-j_edited.webp';
+import tj from '../../assets/images/tj.webp';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -67,7 +67,9 @@ const Testimonial = ({
               <div>
                   <img
                     src={tj}
-                    alt="TJ developer"
+                    alt=""
+                    width="350"
+                    height="394"
                   />
                 </div>
                 <div className="testimonial-item-content">
@@ -90,7 +92,9 @@ const Testimonial = ({
                 <div>
                   <img
                     src={ryan}
-                    alt="Ryan developer"
+                    alt=""
+                    width="350"
+                    height="350"
                   />
                 </div>
                 <div className="testimonial-item-content">

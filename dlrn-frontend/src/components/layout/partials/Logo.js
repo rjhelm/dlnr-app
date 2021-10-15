@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
-import logo from '../../../assets/images/logo.png';
+import logo from '../../../assets/images/logo.webp';
 
 const Logo = ({
   className,

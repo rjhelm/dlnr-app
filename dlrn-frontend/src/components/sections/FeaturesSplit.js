@@ -2,11 +2,12 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
-import dev from '../../assets/images/developer.png';
-import comp from '../../assets/images/computer-science.png';
-import eco from '../../assets/images/eco-friendly.png';
-import productivity from '../../assets/images/productivity.png'
-import cpu from '../../assets/images/cpu.png';
+import dev from '../../assets/images/developer.webp';
+import comp from '../../assets/images/computer-science.webp';
+import eco from '../../assets/images/eco-friendly.webp';
+import productivity from '../../assets/images/productivity.webp'
+import cpu from '../../assets/images/cpu.webp';
+import Image from '../elements/Image';
 
 const propTypes = {
     ...SectionSplitProps.types
@@ -86,10 +87,10 @@ const FeaturesSplit = ({
                                     imageFill && 'split-item-image-fill'
                                 )}
                                 data-reveal-container=".split-item">
-                                <img
+                                <Image
                                     src={cpu}
                                     alt="Features split 01"
-                                    width={528}
+                                    width={450}
                                     height={396} />
                             </div>
                         </div>
@@ -112,9 +113,9 @@ const FeaturesSplit = ({
                                     imageFill && 'split-item-image-fill'
                                 )}
                                 data-reveal-container=".split-item">
-                                <img
+                                <Image
                                     src={dev}
-                                    alt="developer"
+                                    alt=""
                                     width={528}
                                     height={396} />
                             </div>
@@ -137,7 +138,7 @@ const FeaturesSplit = ({
                                     imageFill && 'split-item-image-fill'
                                 )}
                                 data-reveal-container=".split-item">
-                                <img
+                                <Image
                                     src={productivity}
                                     alt="Features split 02"
                                     width={528}
@@ -163,7 +164,7 @@ const FeaturesSplit = ({
                                     imageFill && 'split-item-image-fill'
                                 )}
                                 data-reveal-container=".split-item">
-                                <img
+                                <Image
                                     src={eco}
                                     alt="Features split 03"
                                     width={528}
@@ -188,7 +189,7 @@ const FeaturesSplit = ({
                                     imageFill && 'split-item-image-fill'
                                 )}
                                 data-reveal-container=".split-item">
-                                <img
+                                <Image
                                     src={comp}
                                     alt="Multpiple users"
                                     width={528}

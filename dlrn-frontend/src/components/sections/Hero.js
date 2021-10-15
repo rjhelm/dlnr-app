@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
-// import Image from '../elements/Image';
+import Image from '../elements/Image';
 // import Modal from '../elements/Modal';
-import logo from '../../assets/images/logo.png';
+import logo from '../../assets/images/logo.webp';
 
 const propTypes = {
   ...SectionProps.types
@@ -87,7 +87,7 @@ const Hero = ({
               // aria-controls="video-modal"
               // onClick={openModal}
             >
-              <img
+              <Image
                 className="has-shadow"
                 src={logo}
                 alt="Hero"
