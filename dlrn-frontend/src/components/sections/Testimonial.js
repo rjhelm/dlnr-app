@@ -5,6 +5,7 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import ryan from '../../assets/images/ryan-j_edited.jpg';
+import tj from '../../assets/images/tj.jpg';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -63,9 +64,15 @@ const Testimonial = ({
 
             <div className="tiles-item reveal-from-right" data-reveal-delay="200">
               <div className="tiles-item-inner">
+              <div>
+                  <img
+                    src={tj}
+                    alt="TJ developer"
+                  />
+                </div>
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — TJ is a business owner, blockchain developer, and investor in cryptocurrency. TJ is also a self taught blockcain app developer and brought this idea to life.
+                    — TJ is a business owner, blockchain developer, and crypto investor. TJ is also a self taught blockcain app developer and brought this idea to life.
                   </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
@@ -83,7 +90,7 @@ const Testimonial = ({
                 <div>
                   <img
                     src={ryan}
-                    alt="Ryan team developer"
+                    alt="Ryan developer"
                   />
                 </div>
                 <div className="testimonial-item-content">

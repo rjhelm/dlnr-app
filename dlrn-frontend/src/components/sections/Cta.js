@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import Input from '../elements/Input';
-
+import Button from '../elements/Button';
+import ButtonGroup
+ from '../elements/ButtonGroup';
 const propTypes = {
     ...SectionProps.types,
     split: PropTypes.bool
@@ -51,8 +53,13 @@ const Cta = ({
                 <div className={innerClasses}>
                     <div className="cta-slogan">
                         <h3 className="m-0">
-                            DLRN Token ICO
+                            Purchase DLRN
                         </h3>
+                        <p>
+                            Don't miss our ICO
+                            <br/>
+                            Invest in DLRN
+                        </p>
                     </div>
                     <div className="cta-action">
                         <Input id="newsletter" type="name" label="Name" labelHidden hasIcon="right" placeholder="Your Name">
@@ -65,6 +72,22 @@ const Cta = ({
                                 <path d="M9 5H1c-.6 0-1 .4-1 1s.4 1 1 1h8v5l7-6-7-6v5z" fill="#376DF9" />
                             </svg>
                         </Input>
+                        <div className="reveal-from-bottom" data-reveal-delay="600">
+                            <ButtonGroup>
+                                <Button tag="a" color="dark" wideMobile href="">
+                                    Credit/Debit Card
+                                </Button>
+                                <Button tag="a" color="dark" wideMobile href="">
+                                    Crypto
+                                </Button>
+                                <Button tag="a" color="dark" wideMobile href="">
+                                    Venmo
+                                </Button>
+                                <Button tag="a" color="dark" wideMobile href="">
+                                    Paypal
+                                </Button>
+                            </ButtonGroup>
+                        </div>
                         {/* Put in a select option here for choosing a way to pay for the ICO */}
                     </div>
                 </div>

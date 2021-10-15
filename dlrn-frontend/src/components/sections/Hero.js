@@ -5,7 +5,7 @@ import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 // import Image from '../elements/Image';
 // import Modal from '../elements/Modal';
-import hero from '../../assets/images/hero.jpg';
+import logo from '../../assets/images/logo.png';
 
 const propTypes = {
   ...SectionProps.types
@@ -89,10 +89,10 @@ const Hero = ({
             >
               <img
                 className="has-shadow"
-                src={hero}
+                src={logo}
                 alt="Hero"
                 width={896}
-                height={704} />
+                height={896} />
             </a>
           </div>
           {/* <Modal
