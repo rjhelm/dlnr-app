@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Router } from 'react-router-dom';
 import { createMemoryHistory } from 'history'
 import App from './App';
-import 'dotenv';
+
 
 const history = createMemoryHistory();
 

@@ -12,7 +12,15 @@ import LayoutDefault from './layouts/LayoutDefault';
 import Home from './views/Home';
 
 // Initialize Google Analytics
-ReactGA.initialize(process.env.REACT_APP_GA_CODE);
+ReactGA.initialize(process.env.REACT_APP_GA_CODE, {
+  testMode: true,
+  debug: true,
+  titleCase: false,
+  gaOptions: {
+    name: "tracker 1",
+    userId: 123
+  }
+});
 
 const trackPage = page => {
   ReactGA.set({ page });
