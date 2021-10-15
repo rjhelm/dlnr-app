@@ -54,7 +54,7 @@ const Cta = ({
                 <div className={innerClasses}>
                     <div className="footer-social">
                         <h3 className="m-0">
-                            Purchase DLRN
+                            Purchase <strong style={{ color: "#6163FF" }}>DLRN</strong>
                         </h3>
                         <p>
                             Don't miss our ICO
