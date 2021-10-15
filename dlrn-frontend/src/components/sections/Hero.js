@@ -70,10 +70,10 @@ const Hero = ({
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="">
+                  <Button tag="a" color="primary" wideMobile href="https://etherscan.io/token/0xa8158a68fe2a265c2499c3f4d17f80f2507c532f?a=0xef24416e0b6a8863a6710b0fa4dd4d24f6ab593e">
                     Whitesheet
                   </Button>
-                  <Button tag="a" color="dark" wideMobile href="">
+                  <Button tag="a" color="dark" wideMobile href="https://etherscan.io/token/0xa8158a68fe2a265c2499c3f4d17f80f2507c532f?a=0xef24416e0b6a8863a6710b0fa4dd4d24f6ab593e">
                     DLRN Token
                   </Button>
                 </ButtonGroup>

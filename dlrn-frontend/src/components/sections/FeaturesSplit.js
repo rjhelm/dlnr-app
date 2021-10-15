@@ -74,9 +74,9 @@ const FeaturesSplit = ({
                                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
 
                                 </div>
-                                <h3 className="mt-0 mb-12">
+                                <h2 className="mt-0 mb-12">
                                     Introduction
-                                </h3>
+                                </h2>
                                 <p className="m-0">
                                     The current technology in use for efficient data processing today is very expensive and utilizes a lot of power. With that playing a huge factor in the advancement of this industry, our blockchain plans to fix that. We plan to deploy a decentralized network of certified miners built out of optimized Single-board computers, made specifically for data processing and low power consumption. These miners will come in a range of affordable prices for all developers. Miners will come preprogrammed with 2 built in environments. The first is a cross-chain exchange, wallet, and charting application, to preform all your trades. The second environment will give developers all the tools needed to create anything from neural networks to Data Visualization. Our blockchain will not only push advancements for many indusries, our blockchain will give aspiring developers the ability to create their own cryptocurrency and NFT's to provide developers income while working on their projects.
                                 </p>
